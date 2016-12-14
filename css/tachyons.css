@@ -1,11 +1,54 @@
 @import '../node_modules/normalize';
-@import '../node_modules/tachyons-aspect-ratios';
-@import '../node_modules/tachyons-code';
-@import '../node_modules/tachyons-rotations';
 @import '../node_modules/tachyons-negative-margins';
 @import '../node_modules/tachyons-nested';
 @import '../node_modules/tachyons-styles';
 @import '../node_modules/tachyons-media-queries';
+/*
+
+   ASPECT RATIOS
+
+*/
+/* This is for fluid media that is embedded from third party sites like youtube, vimeo etc.
+ * Wrap the outer element in aspect-ratio and then extend it with the desired ratio i.e
+ * Make sure there are no height and width attributes on the embedded media.
+ * Adapted from: https://github.com/suitcss/components-flex-embed
+ *
+ * Example:
+ *
+ * <div class="aspect-ratio aspect-ratio--16x9">
+ *  <iframe class="aspect-ratio--object"></iframe>
+ * </div>
+ *
+ * */
+.aspect-ratio { height: 0; position: relative; }
+.aspect-ratio--16x9 { padding-bottom: 56.25%; }
+.aspect-ratio--9x16 { padding-bottom: 177.77%; }
+.aspect-ratio--4x3 { padding-bottom: 75%; }
+.aspect-ratio--3x4 { padding-bottom: 133.33%; }
+.aspect-ratio--6x4 { padding-bottom: 66.6%; }
+.aspect-ratio--4x6 { padding-bottom: 150%; }
+.aspect-ratio--8x5 { padding-bottom: 62.5%; }
+.aspect-ratio--5x8 { padding-bottom: 160%; }
+.aspect-ratio--7x5 { padding-bottom: 71.42%; }
+.aspect-ratio--5x7 { padding-bottom: 140%; }
+.aspect-ratio--1x1 { padding-bottom: 100%; }
+.aspect-ratio--object { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 100; }
+/*
+   CODE
+*/
+.pre { overflow-x: auto; overflow-y: hidden; overflow: scroll; }
+/*
+
+   ROTATIONS
+
+*/
+.rotate-45 { -webkit-transform: rotate( 45deg ); transform: rotate( 45deg ); }
+.rotate-90 { -webkit-transform: rotate( 90deg ); transform: rotate( 90deg ); }
+.rotate-135 { -webkit-transform: rotate( 135deg ); transform: rotate( 135deg ); }
+.rotate-180 { -webkit-transform: rotate( 180deg ); transform: rotate( 180deg ); }
+.rotate-225 { -webkit-transform: rotate( 225deg ); transform: rotate( 225deg ); }
+.rotate-270 { -webkit-transform: rotate( 270deg ); transform: rotate( 270deg ); }
+.rotate-315 { -webkit-transform: rotate( 315deg ); transform: rotate( 315deg ); }
 /*! TACHYONS v4.6.1 | http://tachyons.io */
 /*
  *
@@ -1593,6 +1636,26 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /* Uncomment out the line below to help debug layout issues */
 /* @import '../node_modules/tachyons-debug'; */
 @media screen and (min-width: 30em) {
+ .aspect-ratio-ns { height: 0; position: relative; }
+ .aspect-ratio--16x9-ns { padding-bottom: 56.25%; }
+ .aspect-ratio--9x16-ns { padding-bottom: 177.77%; }
+ .aspect-ratio--4x3-ns { padding-bottom: 75%; }
+ .aspect-ratio--3x4-ns { padding-bottom: 133.33%; }
+ .aspect-ratio--6x4-ns { padding-bottom: 66.6%; }
+ .aspect-ratio--4x6-ns { padding-bottom: 150%; }
+ .aspect-ratio--8x5-ns { padding-bottom: 62.5%; }
+ .aspect-ratio--5x8-ns { padding-bottom: 160%; }
+ .aspect-ratio--7x5-ns { padding-bottom: 71.42%; }
+ .aspect-ratio--5x7-ns { padding-bottom: 140%; }
+ .aspect-ratio--1x1-ns { padding-bottom: 100%; }
+ .aspect-ratio--object-ns { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 100; }
+ .rotate-45-ns { -webkit-transform: rotate( 45deg ); transform: rotate( 45deg ); }
+ .rotate-90-ns { -webkit-transform: rotate( 90deg ); transform: rotate( 90deg ); }
+ .rotate-135-ns { -webkit-transform: rotate( 135deg ); transform: rotate( 135deg ); }
+ .rotate-180-ns { -webkit-transform: rotate( 180deg ); transform: rotate( 180deg ); }
+ .rotate-225-ns { -webkit-transform: rotate( 225deg ); transform: rotate( 225deg ); }
+ .rotate-270-ns { -webkit-transform: rotate( 270deg ); transform: rotate( 270deg ); }
+ .rotate-315-ns { -webkit-transform: rotate( 315deg ); transform: rotate( 315deg ); }
  .cover-ns { background-size: cover; }
  .contain-ns { background-size: contain; }
  .bg-center-ns { background-repeat: no-repeat; background-position: center center; }
@@ -1952,6 +2015,26 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .v-btm-ns { vertical-align: bottom; }
 }
 @media screen and (min-width: 30em) and (max-width: 60em) {
+ .aspect-ratio-m { height: 0; position: relative; }
+ .aspect-ratio--16x9-m { padding-bottom: 56.25%; }
+ .aspect-ratio--9x16-m { padding-bottom: 177.77%; }
+ .aspect-ratio--4x3-m { padding-bottom: 75%; }
+ .aspect-ratio--3x4-m { padding-bottom: 133.33%; }
+ .aspect-ratio--6x4-m { padding-bottom: 66.6%; }
+ .aspect-ratio--4x6-m { padding-bottom: 150%; }
+ .aspect-ratio--8x5-m { padding-bottom: 62.5%; }
+ .aspect-ratio--5x8-m { padding-bottom: 160%; }
+ .aspect-ratio--7x5-m { padding-bottom: 71.42%; }
+ .aspect-ratio--5x7-m { padding-bottom: 140%; }
+ .aspect-ratio--1x1-m { padding-bottom: 100%; }
+ .aspect-ratio--object-m { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 100; }
+ .rotate-45-m { -webkit-transform: rotate( 45deg ); transform: rotate( 45deg ); }
+ .rotate-90-m { -webkit-transform: rotate( 90deg ); transform: rotate( 90deg ); }
+ .rotate-135-m { -webkit-transform: rotate( 135deg ); transform: rotate( 135deg ); }
+ .rotate-180-m { -webkit-transform: rotate( 180deg ); transform: rotate( 180deg ); }
+ .rotate-225-m { -webkit-transform: rotate( 225deg ); transform: rotate( 225deg ); }
+ .rotate-270-m { -webkit-transform: rotate( 270deg ); transform: rotate( 270deg ); }
+ .rotate-315-m { -webkit-transform: rotate( 315deg ); transform: rotate( 315deg ); }
  .cover-m { background-size: cover; }
  .contain-m { background-size: contain; }
  .bg-center-m { background-repeat: no-repeat; background-position: center center; }
@@ -2314,6 +2397,26 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .v-btm-m { vertical-align: bottom; }
 }
 @media screen and (min-width: 60em) {
+ .aspect-ratio-l { height: 0; position: relative; }
+ .aspect-ratio--16x9-l { padding-bottom: 56.25%; }
+ .aspect-ratio--9x16-l { padding-bottom: 177.77%; }
+ .aspect-ratio--4x3-l { padding-bottom: 75%; }
+ .aspect-ratio--3x4-l { padding-bottom: 133.33%; }
+ .aspect-ratio--6x4-l { padding-bottom: 66.6%; }
+ .aspect-ratio--4x6-l { padding-bottom: 150%; }
+ .aspect-ratio--8x5-l { padding-bottom: 62.5%; }
+ .aspect-ratio--5x8-l { padding-bottom: 160%; }
+ .aspect-ratio--7x5-l { padding-bottom: 71.42%; }
+ .aspect-ratio--5x7-l { padding-bottom: 140%; }
+ .aspect-ratio--1x1-l { padding-bottom: 100%; }
+ .aspect-ratio--object-l { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 100; }
+ .rotate-45-l { -webkit-transform: rotate( 45deg ); transform: rotate( 45deg ); }
+ .rotate-90-l { -webkit-transform: rotate( 90deg ); transform: rotate( 90deg ); }
+ .rotate-135-l { -webkit-transform: rotate( 135deg ); transform: rotate( 135deg ); }
+ .rotate-180-l { -webkit-transform: rotate( 180deg ); transform: rotate( 180deg ); }
+ .rotate-225-l { -webkit-transform: rotate( 225deg ); transform: rotate( 225deg ); }
+ .rotate-270-l { -webkit-transform: rotate( 270deg ); transform: rotate( 270deg ); }
+ .rotate-315-l { -webkit-transform: rotate( 315deg ); transform: rotate( 315deg ); }
  .cover-l { background-size: cover; }
  .contain-l { background-size: contain; }
  .bg-center-l { background-repeat: no-repeat; background-position: center center; }
