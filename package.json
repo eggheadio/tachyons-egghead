@@ -78,6 +78,7 @@
     "tachyons-outlines": "^1.0.2",
     "tachyons-overflow": "^4.0.3",
     "tachyons-position": "^6.0.3",
+    "tachyons-queries": "^0.3.3",
     "tachyons-rotations": "^1.0.2",
     "tachyons-skins": "github:eggheadio/tachyons-skins",
     "tachyons-skins-pseudo": "github:eggheadio/tachyons-skins-pseudo",
