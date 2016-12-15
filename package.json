@@ -2,7 +2,7 @@
   "name": "tachyons-egghead",
   "version": "1.1.2",
   "description": "Tachyons packages edited for Egghead.io",
-  "main": "src/tachyons.css",
+  "main": "css/tachyons.css",
   "scripts": {
     "start": "npm run build:watch",
     "mutations": "immutable-css src/tachyons.css --strict",
