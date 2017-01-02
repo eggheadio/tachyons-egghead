@@ -13,7 +13,7 @@
     "build:watch": "watch 'npm run build' ./src/"
   },
   "author": "mrmrs",
-  "repository": "tayiorbeii/tachyons-egghead",
+  "repository": "eggheadio/tachyons-egghead",
   "license": "MIT",
   "devDependencies": {
     "copy-files": "^0.1.0",
