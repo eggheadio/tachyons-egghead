@@ -20,7 +20,7 @@
  *    4. Debugging
  *       - Debug all
  *       - Debug children
- *
+ *    5. Button Rules
  */
 
 
@@ -89,3 +89,19 @@
 
 /* Uncomment out the line below to help debug layout issues */
 /* @import '../node_modules/tachyons-debug'../..*/
+
+/* Button Rules */
+.eh-btn {
+  min-width: 140px;
+  height: 3rem;
+}
+
+.eh-btn-primary {
+  line-height: 2rem;
+  min-width: 200px;
+}
+
+.eh-cta {
+  min-width: 280px;
+  height: 5rem;
+}
