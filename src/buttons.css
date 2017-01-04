@@ -1,0 +1,16 @@
+/* Button Rules */
+.eh-btn {
+  min-width: 140px;
+  height: 3rem;
+}
+
+.eh-btn-primary {
+  line-height: 2rem;
+  min-width: 200px;
+}
+
+.eh-cta {
+  min-width: 280px;
+  height: 5rem;
+}
+

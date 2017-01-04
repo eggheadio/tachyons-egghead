@@ -27,6 +27,9 @@
 /* External Library Includes */
 @import '../node_modules/normalize.css';
 
+/* Egghead Components */
+@import 'forms.css'
+@import 'buttons.css'
 
 /* Modules */
 @import '../node_modules/tachyons-box-sizing';
