@@ -27,10 +27,6 @@
 /* External Library Includes */
 @import '../node_modules/normalize.css';
 
-/* Egghead Components */
-@import './forms.css'
-@import './buttons.css'
-
 /* Modules */
 @import '../node_modules/tachyons-box-sizing';
 @import '../node_modules/tachyons-aspect-ratios';
@@ -93,18 +89,7 @@
 /* Uncomment out the line below to help debug layout issues */
 /* @import '../node_modules/tachyons-debug'../..*/
 
-/* Button Rules */
-.eh-btn {
-  min-width: 140px;
-  height: 3rem;
-}
+/* Egghead Components */
+@import './forms.css'
+@import './buttons.css'
 
-.eh-btn-primary {
-  line-height: 2rem;
-  min-width: 200px;
-}
-
-.eh-cta {
-  min-width: 280px;
-  height: 5rem;
-}
