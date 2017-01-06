@@ -43,7 +43,6 @@
 @import '../node_modules/tachyons-code';
 @import '../node_modules/tachyons-coordinates';
 @import '../node_modules/tachyons-clears';
-@import '../node_modules/tachyons-colors';
 @import '../node_modules/tachyons-display';
 @import '../node_modules/tachyons-flexbox';
 @import '../node_modules/tachyons-floats';
@@ -81,7 +80,7 @@
 
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
-/* @import '../node_modules/tachyons-colors'; */
+@import '../node_modules/tachyons-colors';
 /* @import '../node_modules/tachyons-queries'; */
 
 /* Debugging */

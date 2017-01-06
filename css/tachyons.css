@@ -452,7 +452,7 @@ img { max-width: 100%; }
 .b--light-navy { border-color: #292f36; }
 .b--dark-gray { border-color: #434b56; }
 .b--gray { border-color: #646e7b; }
-.b--light-gray { border-color: #eee; }
+.b--light-gray { border-color: #d1d2d3; }
 .b--yellow { border-color: #ffce51; }
 .b--orange { border-color: #f59e33; }
 .b--dark-orange { border-color: #df6941; }
@@ -615,19 +615,6 @@ img { max-width: 100%; }
 .cr { clear: right; }
 .cb { clear: both; }
 .cn { clear: none; }
-/* Modified by Egghead */
-/*
-
-   Tachyons
-   COLOR VARIABLES
-
-   Grayscale
-   - Solids
-   - Transparencies
-   Colors
-
-*/
-:root {/*--near-black: #111;*//*--dark-gray:#333;*//*--mid-gray:#555;*//*--gray: #777;*//*--silver: #999;*//*--light-silver: #aaa;*//*--moon-gray: #ccc;*//*--light-gray: #eee;*//*--near-white: #f4f4f4;*//*--dark-red:  #e7040f;*//*--red:  #ff4136;*//*--light-red:  #ff725c;*//*--orange:  #ff6300;*//*--gold:  #ffb700;*//*--yellow:  #ffd700;*//*--light-yellow:  #fbf1a9;*//*--purple:  #5e2ca5;*//*--light-purple:  #a463f2;*//*--dark-pink:  #d5008f;*//*--hot-pink: #ff41b4;*//*--pink:  #ff80cc;*//*--light-pink:  #ffa3d7;*//*--dark-green:  #137752;*//*--green:  #19a974;*//*--light-green:  #9eebcf;*//*--navy:  #001b44;*//*--dark-blue:  #00449e;*//*--blue:  #357edd;*//*--light-blue:  #96ccff;*//*--lightest-blue:  #cdecff;*//*--washed-blue:  #f6fffe;*//*--washed-green:  #e8fdf5;*//*--washed-yellow:  #fffceb;*//*--washed-red:  #ffdfdf;*/ }
 /*
 
    DISPLAY
@@ -1117,7 +1104,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .light-navy { color: #292f36; }
 .dark-gray { color: #434b56; }
 .gray { color: #646e7b; }
-.light-gray { color: #eee; }
+.light-gray { color: #d1d2d3; }
 .yellow { color: #ffce51; }
 .orange { color: #f59e33; }
 .dark-orange { color: #df6941; }
@@ -1193,7 +1180,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-light-navy { background-color: #292f36; }
 .bg-dark-gray { background-color: #434b56; }
 .bg-gray { background-color: #646e7b; }
-.bg-light-gray { background-color: #eee; }
+.bg-light-gray { background-color: #d1d2d3; }
 .bg-yellow { background-color: #ffce51; }
 .bg-orange { background-color: #f59e33; }
 .bg-dark-orange { background-color: #df6941; }
@@ -1384,8 +1371,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-dark-gray:focus { color: #434b56; }
 .hover-gray:hover { color: #646e7b; }
 .hover-gray:focus { color: #646e7b; }
-.hover-light-gray:hover { color: #eee; }
-.hover-light-gray:focus { color: #eee; }
+.hover-light-gray:hover { color: #d1d2d3; }
+.hover-light-gray:focus { color: #d1d2d3; }
 .hover-yellow:hover { color: #ffce51; }
 .hover-yellow:focus { color: #ffce51; }
 .hover-orange:hover { color: #f59e33; }
@@ -1420,8 +1407,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-bg-dark-gray:focus { background-color: #434b56; }
 .hover-bg-gray:hover { background-color: #646e7b; }
 .hover-bg-gray:focus { background-color: #646e7b; }
-.hover-bg-light-gray:hover { background-color: #eee; }
-.hover-bg-light-gray:focus { background-color: #eee; }
+.hover-bg-light-gray:hover { background-color: #d1d2d3; }
+.hover-bg-light-gray:focus { background-color: #d1d2d3; }
 .hover-bg-yellow:hover { background-color: #ffce51; }
 .hover-bg-yellow:focus { background-color: #ffce51; }
 .hover-bg-orange:hover { background-color: #f59e33; }
@@ -1456,8 +1443,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-b--dark-gray:focus { border-color: #434b56; }
 .hover-b--gray:hover { border-color: #646e7b; }
 .hover-b--gray:focus { border-color: #646e7b; }
-.hover-b--light-gray:hover { border-color: #eee; }
-.hover-b--light-gray:focus { border-color: #eee; }
+.hover-b--light-gray:hover { border-color: #d1d2d3; }
+.hover-b--light-gray:focus { border-color: #d1d2d3; }
 .hover-b--yellow:hover { border-color: #ffce51; }
 .hover-b--yellow:focus { border-color: #ffce51; }
 .hover-b--orange:hover { border-color: #f59e33; }
@@ -1714,7 +1701,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .collapse { border-collapse: collapse; border-spacing: 0; }
 .striped--moon-gray:nth-child(odd) { background-color: #aaa; }
 .striped--moon-gray:nth-child(odd) { background-color: #ccc; }
-.striped--light-gray:nth-child(odd) { background-color: #eee; }
+.striped--light-gray:nth-child(odd) { background-color: #d1d2d3; }
 .striped--near-white:nth-child(odd) { background-color: #f4f4f4; }
 /*
 
@@ -1913,7 +1900,19 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .z-unset { z-index: unset; }
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
-/* @import '../node_modules/tachyons-colors'; */
+/* Modified by Egghead */
+/*
+
+   Tachyons
+   COLOR VARIABLES
+
+   Grayscale
+   - Solids
+   - Transparencies
+   Colors
+
+*/
+:root {/*--near-black: #111;*//*--dark-gray:#333;*//*--mid-gray:#555;*//*--gray: #777;*//*--silver: #999;*//*--light-silver: #aaa;*//*--moon-gray: #ccc;*//*--light-gray: #eee;*//*--near-white: #f4f4f4;*//*--dark-red:  #e7040f;*//*--red:  #ff4136;*//*--light-red:  #ff725c;*//*--orange:  #ff6300;*//*--gold:  #ffb700;*//*--yellow:  #ffd700;*//*--light-yellow:  #fbf1a9;*//*--purple:  #5e2ca5;*//*--light-purple:  #a463f2;*//*--dark-pink:  #d5008f;*//*--hot-pink: #ff41b4;*//*--pink:  #ff80cc;*//*--light-pink:  #ffa3d7;*//*--dark-green:  #137752;*//*--green:  #19a974;*//*--light-green:  #9eebcf;*//*--navy:  #001b44;*//*--dark-blue:  #00449e;*//*--blue:  #357edd;*//*--light-blue:  #96ccff;*//*--lightest-blue:  #cdecff;*//*--washed-blue:  #f6fffe;*//*--washed-green:  #e8fdf5;*//*--washed-yellow:  #fffceb;*//*--washed-red:  #ffdfdf;*/ }
 /* @import '../node_modules/tachyons-queries'; */
 /* Debugging */
 /*
