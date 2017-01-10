@@ -453,6 +453,7 @@ img { max-width: 100%; }
 .b--dark-gray { border-color: #434b56; }
 .b--gray { border-color: #646e7b; }
 .b--light-gray { border-color: #d1d2d3; }
+.b--tag-gray { border-color: #f6f6f6; }
 .b--yellow { border-color: #ffce51; }
 .b--orange { border-color: #f59e33; }
 .b--dark-orange { border-color: #df6941; }
@@ -1105,6 +1106,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .dark-gray { color: #434b56; }
 .gray { color: #646e7b; }
 .light-gray { color: #d1d2d3; }
+.tag-gray { color: #f6f6f6; }
 .yellow { color: #ffce51; }
 .orange { color: #f59e33; }
 .dark-orange { color: #df6941; }
@@ -1181,6 +1183,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-dark-gray { background-color: #434b56; }
 .bg-gray { background-color: #646e7b; }
 .bg-light-gray { background-color: #d1d2d3; }
+.bg-tag-gray { background-color: #f6f6f6; }
 .bg-yellow { background-color: #ffce51; }
 .bg-orange { background-color: #f59e33; }
 .bg-dark-orange { background-color: #df6941; }
@@ -1373,6 +1376,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-gray:focus { color: #646e7b; }
 .hover-light-gray:hover { color: #d1d2d3; }
 .hover-light-gray:focus { color: #d1d2d3; }
+.hover-tag-gray:hover { color: #f6f6f6; }
+.hover-tag-gray:focus { color: #f6f6f6; }
 .hover-yellow:hover { color: #ffce51; }
 .hover-yellow:focus { color: #ffce51; }
 .hover-orange:hover { color: #f59e33; }
@@ -1409,6 +1414,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-bg-gray:focus { background-color: #646e7b; }
 .hover-bg-light-gray:hover { background-color: #d1d2d3; }
 .hover-bg-light-gray:focus { background-color: #d1d2d3; }
+.hover-bg-tag-gray:hover { background-color: #f6f6f6; }
+.hover-bg-tag-gray:focus { background-color: #f6f6f6; }
 .hover-bg-yellow:hover { background-color: #ffce51; }
 .hover-bg-yellow:focus { background-color: #ffce51; }
 .hover-bg-orange:hover { background-color: #f59e33; }
@@ -1445,6 +1452,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-b--gray:focus { border-color: #646e7b; }
 .hover-b--light-gray:hover { border-color: #d1d2d3; }
 .hover-b--light-gray:focus { border-color: #d1d2d3; }
+.hover-b--tag-gray:hover { border-color: #f6f6f6; }
+.hover-b--tag-gray:focus { border-color: #f6f6f6; }
 .hover-b--yellow:hover { border-color: #ffce51; }
 .hover-b--yellow:focus { border-color: #ffce51; }
 .hover-b--orange:hover { border-color: #f59e33; }
