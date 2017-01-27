@@ -226,8 +226,8 @@
     background-color: #1b1f24;
 }
 
-
-/* Card Rules */
+/* Card Related */
+/* Move to the general styles override */
 *,
 *:before,
 *:after {
@@ -387,3 +387,4 @@
   position: relative;
   left: 3px;
 }
+
