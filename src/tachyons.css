@@ -228,6 +228,12 @@
 
 
 /* Card Rules */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 .card-course,
 .card-lesson,
 .card-playlist {
