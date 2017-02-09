@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run build:watch",
     "build": "npm run build:css && npm run build:minify",
-    "build:css": "mkdir css && tachyons src/tachyons.css > css/tachyons.css",
+    "build:css": "mkdir -p css && tachyons src/tachyons.css > css/tachyons.css",
     "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
     "build:watch": "watch 'npm run build' ./src/",
     "prepublish": "npm run build",
