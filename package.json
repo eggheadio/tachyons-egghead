@@ -5,12 +5,12 @@
   "main": "css/tachyons.css",
   "scripts": {
     "start": "npm run build:watch",
-    "mutations": "immutable-css src/tachyons.css --strict",
-    "copy": "node build/index.js",
     "build": "npm run build:css && npm run build:minify",
     "build:css": "tachyons src/tachyons.css > css/tachyons.css",
     "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
-    "build:watch": "watch 'npm run build' ./src/"
+    "build:watch": "watch 'npm run build' ./src/",
+    "prepublish": "npm run build",
+    "release": "np"
   },
   "author": "mrmrs",
   "repository": "eggheadio/tachyons-egghead",
@@ -19,6 +19,7 @@
     "copy-files": "^0.1.0",
     "immutable-css-cli": "^1.1.1",
     "normalize.css": "^5.0.0",
+    "np": "^2.12.0",
     "tachyons-cli": "^1.0.2",
     "tachyons-modules": "^1.1.8",
     "watch": "^1.0.1"
