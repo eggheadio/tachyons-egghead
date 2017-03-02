@@ -11,3 +11,5 @@ deploy:
       repo: eggheadio/tachyons-egghead
       tags: true
       branch: master
+notifications:
+  slack: $SLACK_INTEGRATION_TOKEN
