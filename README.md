@@ -39,3 +39,7 @@ Now you can use the [default tachyons class names](http://tachyons.io/docs/table
 - when `master` is updated
   - if there was a version bump, [continuous deployment in Travis CI](https://travis-ci.org/eggheadio/tachyons-egghead) publishes the new library version to [npm](https://www.npmjs.com/package/tachyons-egghead)
     - notify consumers to run `yarn upgrade tachyons-egghead` in their projects to get latest, with a list of changes
+
+## Debugging
+
+In `src/tachyons.css` are imports you can uncomment for debugging.

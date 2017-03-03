@@ -30,9 +30,6 @@
     "tachyons-code": "^1.0.0",
     "tachyons-colors": "github:eggheadio/tachyons-colors",
     "tachyons-coordinates": "^4.0.3",
-    "tachyons-custom": "^4.5.4",
-    "tachyons-debug": "^1.1.9",
-    "tachyons-debug-grid": "^1.2.2",
     "tachyons-display": "^5.0.3",
     "tachyons-flexbox": "github:eggheadio/tachyons-flexbox",
     "tachyons-floats": "^3.0.3",
@@ -53,12 +50,10 @@
     "tachyons-outlines": "^1.0.2",
     "tachyons-overflow": "^4.0.3",
     "tachyons-position": "^6.0.3",
-    "tachyons-queries": "^0.3.3",
     "tachyons-rotations": "^1.0.2",
     "tachyons-skins": "github:eggheadio/tachyons-skins",
     "tachyons-skins-pseudo": "github:eggheadio/tachyons-skins-pseudo",
     "tachyons-spacing": "^6.0.3",
-    "tachyons-styles": "^0.3.4",
     "tachyons-tables": "^1.0.6",
     "tachyons-text-align": "^3.0.3",
     "tachyons-text-decoration": "^4.0.3",
@@ -74,11 +69,9 @@
     "tachyons-z-index": "^1.0.7"
   },
   "devDependencies": {
-    "copy-files": "^0.1.0",
-    "immutable-css-cli": "^1.1.1",
-    "normalize.css": "^5.0.0",
     "tachyons-cli": "^1.0.2",
-    "tachyons-modules": "^1.1.8",
+    "tachyons-debug": "^1.1.10",
+    "tachyons-debug-grid": "^1.2.3",
     "watch": "^1.0.1"
   }
 }
