@@ -1,94 +1,66 @@
-/*! TACHYONS v4.6.1 | http://tachyons.io */
-
-/*
- *
- *      ________            ______
- *      ___  __/_____ _________  /______  ______________________
- *      __  /  _  __ `/  ___/_  __ \_  / / /  __ \_  __ \_  ___/
- *      _  /   / /_/ // /__ _  / / /  /_/ // /_/ /  / / /(__  )
- *      /_/    \__,_/ \___/ /_/ /_/_\__, / \____//_/ /_//____/
- *                                 /____/
- *
- *    TABLE OF CONTENTS
- *
- *    1. External Library Includes
- *       - Normalize.css | http://normalize.css.github.io
- *    2. Tachyons Modules
- *    3. Variables
- *       - Media Queries
- *       - Colors
- *    4. Debugging
- *       - Debug all
- *       - Debug children
- *    5. Button Rules
- */
-
-
-/* External Library Includes */
+/* Dependencies */
 @import '../node_modules/normalize.css';
 
-/* Modules */
-@import '../node_modules/tachyons-box-sizing';
+/* Default Tachyons */
 @import '../node_modules/tachyons-aspect-ratios';
-@import '../node_modules/tachyons-images';
-@import '../node_modules/tachyons-background-size';
 @import '../node_modules/tachyons-background-position';
-@import '../node_modules/tachyons-outlines';
-@import '../node_modules/tachyons-borders';
-@import '../node_modules/tachyons-border-colors';
+@import '../node_modules/tachyons-background-size';
+@import '../node_modules/tachyons-base';
 @import '../node_modules/tachyons-border-radius';
 @import '../node_modules/tachyons-border-style';
 @import '../node_modules/tachyons-border-widths';
+@import '../node_modules/tachyons-borders';
 @import '../node_modules/tachyons-box-shadow';
+@import '../node_modules/tachyons-box-sizing';
+@import '../node_modules/tachyons-clears';
 @import '../node_modules/tachyons-code';
 @import '../node_modules/tachyons-coordinates';
-@import '../node_modules/tachyons-clears';
 @import '../node_modules/tachyons-display';
-@import '../node_modules/tachyons-flexbox';
 @import '../node_modules/tachyons-floats';
 @import '../node_modules/tachyons-font-family';
 @import '../node_modules/tachyons-font-style';
 @import '../node_modules/tachyons-font-weight';
 @import '../node_modules/tachyons-forms';
 @import '../node_modules/tachyons-heights';
+@import '../node_modules/tachyons-hovers';
+@import '../node_modules/tachyons-images';
 @import '../node_modules/tachyons-letter-spacing';
 @import '../node_modules/tachyons-line-height';
 @import '../node_modules/tachyons-links';
 @import '../node_modules/tachyons-lists';
 @import '../node_modules/tachyons-max-widths';
-@import '../node_modules/tachyons-widths';
+@import '../node_modules/tachyons-negative-margin';
+@import '../node_modules/tachyons-opacity';
+@import '../node_modules/tachyons-outlines';
 @import '../node_modules/tachyons-overflow';
 @import '../node_modules/tachyons-position';
-@import '../node_modules/tachyons-opacity';
 @import '../node_modules/tachyons-rotations';
-@import '../node_modules/tachyons-skins';
-@import '../node_modules/tachyons-skins-pseudo';
 @import '../node_modules/tachyons-spacing';
-@import '../node_modules/tachyons-negative-margin';
 @import '../node_modules/tachyons-tables';
-@import '../node_modules/tachyons-text-decoration';
 @import '../node_modules/tachyons-text-align';
+@import '../node_modules/tachyons-text-decoration';
 @import '../node_modules/tachyons-text-transform';
 @import '../node_modules/tachyons-type-scale';
 @import '../node_modules/tachyons-typography';
 @import '../node_modules/tachyons-utilities';
+@import '../node_modules/tachyons-vertical-align';
 @import '../node_modules/tachyons-visibility';
 @import '../node_modules/tachyons-white-space';
-@import '../node_modules/tachyons-vertical-align';
-@import '../node_modules/tachyons-hovers';
+@import '../node_modules/tachyons-widths';
+@import '../node_modules/tachyons-word-break';
 @import '../node_modules/tachyons-z-index';
 
-/* Variables */
-/* Importing here will allow you to override any variables in the modules */
+/* egghead custom Tachyons overrides */
+@import '../node_modules/tachyons-base';
+@import '../node_modules/tachyons-flexbox';
+@import '../node_modules/tachyons-skins';
+@import '../node_modules/tachyons-skins-pseudo';
+@import '../node_modules/tachyons-border-colors';
 @import '../node_modules/tachyons-colors';
-
 @custom-media --breakpoint-not-small screen and (min-width: 40em);
 @custom-media --breakpoint-medium screen and (min-width: 40em) and (max-width: 62em);
 @custom-media --breakpoint-large screen and (min-width: 62em);
 
 /* Debugging */
-@import '../node_modules/tachyons-debug-grid';
-
-/* Uncomment out the line below to help debug layout issues */
-/* @import '../node_modules/tachyons-debug'../..*/
-
+/* @import '../node_modules/tachyons-debug'../.. */
+/* @import '../node_modules/tachyons-debug-grid'; */

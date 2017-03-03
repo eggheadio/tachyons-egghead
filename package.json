@@ -2,12 +2,10 @@
   "name": "tachyons-egghead",
   "version": "1.3.1",
   "description": "Tachyons packages edited for egghead.io",
-  "main": "css/tachyons.css",
+  "main": "css/tachyons.min.css",
   "scripts": {
     "dev": "watch 'yarn build' ./src/",
-    "build": "yarn build:css && yarn build:minify",
-    "build:css": "mkdir -p css && tachyons src/tachyons.css > css/tachyons.css",
-    "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
+    "build": "mkdir -p css && tachyons src/tachyons.css -m > css/tachyons.min.css",
     "verify": "yarn build",
     "bump": "yarn version && git push && git push --tags",
     "prepublish": "yarn build"
@@ -18,7 +16,7 @@
     "tachyons-aspect-ratios": "^1.0.1",
     "tachyons-background-position": "^1.0.3",
     "tachyons-background-size": "^5.0.4",
-    "tachyons-base": "^1.2.6",
+    "tachyons-base": "github:eggheadio/tachyons-base",
     "tachyons-border-colors": "github:eggheadio/tachyons-border-colors",
     "tachyons-border-radius": "^5.1.2",
     "tachyons-border-style": "^4.0.3",
@@ -30,9 +28,6 @@
     "tachyons-code": "^1.0.0",
     "tachyons-colors": "github:eggheadio/tachyons-colors",
     "tachyons-coordinates": "^4.0.3",
-    "tachyons-custom": "^4.5.4",
-    "tachyons-debug": "^1.1.9",
-    "tachyons-debug-grid": "^1.2.2",
     "tachyons-display": "^5.0.3",
     "tachyons-flexbox": "github:eggheadio/tachyons-flexbox",
     "tachyons-floats": "^3.0.3",
@@ -53,12 +48,10 @@
     "tachyons-outlines": "^1.0.2",
     "tachyons-overflow": "^4.0.3",
     "tachyons-position": "^6.0.3",
-    "tachyons-queries": "^0.3.3",
     "tachyons-rotations": "^1.0.2",
     "tachyons-skins": "github:eggheadio/tachyons-skins",
     "tachyons-skins-pseudo": "github:eggheadio/tachyons-skins-pseudo",
     "tachyons-spacing": "^6.0.3",
-    "tachyons-styles": "^0.3.4",
     "tachyons-tables": "^1.0.6",
     "tachyons-text-align": "^3.0.3",
     "tachyons-text-decoration": "^4.0.3",
@@ -74,11 +67,9 @@
     "tachyons-z-index": "^1.0.7"
   },
   "devDependencies": {
-    "copy-files": "^0.1.0",
-    "immutable-css-cli": "^1.1.1",
-    "normalize.css": "^5.0.0",
     "tachyons-cli": "^1.0.2",
-    "tachyons-modules": "^1.1.8",
+    "tachyons-debug": "^1.1.10",
+    "tachyons-debug-grid": "^1.2.3",
     "watch": "^1.0.1"
   }
 }

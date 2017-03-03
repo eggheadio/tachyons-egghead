@@ -6,15 +6,21 @@ Tachyons packages edited for egghead.io
 
 # Usage
 
+## Install the dependencies in your project
+
 ```
-$ yarn add 'tachyons-egghead'`
+$ yarn add tachyons-egghead egghead-ui`
 ```
+
+## Include the `tachyons-egghead` CSS classes
 
 ```
 import 'tachyons-egghead'
 ```
 
 Now you can use the [default tachyons class names](http://tachyons.io/docs/table-of-styles) as well as new egghead tachyons classes that you can find from the `github:eggheadio/tachyons-*` egghead modules in [the project's package.json dependencies](https://github.com/eggheadio/tachyons-egghead/blob/master/package.json).
+
+If using React, you'll probably want to use `egghead-ui` as well; it is a library of React components used across egghead projects (it uses both `tachyons-egghead` classes and custom styles and exports React components).
 
 ---
 
@@ -39,3 +45,7 @@ Now you can use the [default tachyons class names](http://tachyons.io/docs/table
 - when `master` is updated
   - if there was a version bump, [continuous deployment in Travis CI](https://travis-ci.org/eggheadio/tachyons-egghead) publishes the new library version to [npm](https://www.npmjs.com/package/tachyons-egghead)
     - notify consumers to run `yarn upgrade tachyons-egghead` in their projects to get latest, with a list of changes
+
+## Debugging
+
+In `src/tachyons.css` are imports you can uncomment for debugging.
