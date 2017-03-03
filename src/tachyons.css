@@ -1,4 +1,4 @@
-/* Normalize */
+/* Dependencies */
 @import '../node_modules/normalize.css';
 
 /* Default Tachyons */
@@ -51,6 +51,7 @@
 @import '../node_modules/tachyons-z-index';
 
 /* egghead custom Tachyons overrides */
+@import '../node_modules/tachyons-base';
 @import '../node_modules/tachyons-flexbox';
 @import '../node_modules/tachyons-skins';
 @import '../node_modules/tachyons-skins-pseudo';
