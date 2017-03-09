@@ -10,7 +10,6 @@
 @import '../node_modules/tachyons-border-style';
 @import '../node_modules/tachyons-border-widths';
 @import '../node_modules/tachyons-borders';
-@import '../node_modules/tachyons-box-shadow';
 @import '../node_modules/tachyons-box-sizing';
 @import '../node_modules/tachyons-clears';
 @import '../node_modules/tachyons-code';
@@ -55,6 +54,7 @@
 @import '../node_modules/tachyons-flexbox';
 @import '../node_modules/tachyons-skins';
 @import '../node_modules/tachyons-skins-pseudo';
+@import '../node_modules/tachyons-box-shadow';
 @import '../node_modules/tachyons-border-colors';
 @import '../node_modules/tachyons-colors';
 @custom-media --breakpoint-not-small screen and (min-width: 40em);
