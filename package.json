@@ -1,6 +1,6 @@
 {
   "name": "tachyons-egghead",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Tachyons packages edited for egghead.io",
   "main": "css/tachyons.min.css",
   "scripts": {
