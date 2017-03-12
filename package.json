@@ -22,7 +22,7 @@
     "tachyons-border-style": "^4.0.3",
     "tachyons-border-widths": "^3.0.3",
     "tachyons-borders": "^3.0.3",
-    "tachyons-box-shadow": "^2.0.3",
+    "tachyons-box-shadow": "github:eggheadio/tachyons-box-shadow",
     "tachyons-box-sizing": "^3.2.0",
     "tachyons-clears": "^3.0.3",
     "tachyons-code": "^1.0.0",
