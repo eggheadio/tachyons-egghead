@@ -1,11 +1,11 @@
 {
   "name": "tachyons-egghead",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Tachyons packages edited for egghead.io",
-  "main": "css/tachyons.min.css",
+  "main": "css/tachyons.css",
   "scripts": {
     "dev": "watch 'yarn build' ./src/",
-    "build": "mkdir -p css && tachyons src/tachyons.css -m > css/tachyons.min.css",
+    "build": "mkdir -p css && tachyons src/tachyons.css -m > css/tachyons.min.css && tachyons src/tachyons.css > css/tachyons.css",
     "verify": "yarn build",
     "bump": "yarn version && git push && git push --tags",
     "prepublish": "yarn build"

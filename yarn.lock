@@ -2644,9 +2644,9 @@ tachyons-borders@^3.0.3:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/tachyons-borders/-/tachyons-borders-3.0.4.tgz#4d52c19ad3bcb7817a5c1078a2eb9dfb0b3dc40f"
 
-tachyons-box-shadow@^2.0.3:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/tachyons-box-shadow/-/tachyons-box-shadow-2.0.4.tgz#a3bf4650efd67cffcfedce2489d8ba522644000c"
+"tachyons-box-shadow@github:eggheadio/tachyons-box-shadow":
+  version "2.1.0"
+  resolved "https://codeload.github.com/eggheadio/tachyons-box-shadow/tar.gz/cb5fb6e0c0d360536e66b2c92909bd36d5939b77"
 
 tachyons-box-sizing@^3.2.0:
   version "3.2.1"
