@@ -34,17 +34,23 @@ If using React, you'll probably want to use `egghead-ui` as well; it is a librar
 
 ## Workflow
 
-- create a feature branch off of `master`
 - `yarn` to install latest packages
 - `yarn dev` to compile with a watcher
 - `yarn verify` check builds work
 - use [`yarn link`](https://yarnpkg.com/lang/en/docs/cli/link/) to test using changes in another project
-- if you want to publish a new library release, run `yarn bump` and type in the new version using [Semantic Versioning](http://semver.org/)
+    
+## Deployment
+
+After you have create a `feature-branch` off of `master`:
+- create a `feature-branch` off of `master`
+- commit the changes
+- `git push --set-upstream origin feature_branch`
+- `git push --tags`
+- `yarn bump` and type in the new version using [Semantic Versioning](http://semver.org/)
 - submit a pull request for the feature branch to `master`
-- once PR status passes (approved review and successful [continuous integration in Travis CI](https://travis-ci.org/eggheadio/tachyons-egghead), merge the pull request
-- when `master` is updated
-  - if there was a version bump, [continuous deployment in Travis CI](https://travis-ci.org/eggheadio/tachyons-egghead) publishes the new library version to [npm](https://www.npmjs.com/package/tachyons-egghead)
-    - notify consumers to run `yarn upgrade tachyons-egghead` in their projects to get latest, with a list of changes
+- once PR status passes (approved review and successful [continuous integration in Travis CI](https://travis-ci.org/eggheadio/tachyons-egghead), merge the pull request and [continuous deployment in Travis CI](https://travis-ci.org/eggheadio/tachyons-egghead) publishes the new library version to [npm](https://www.npmjs.com/package/tachyons-egghead)
+- notify consumers to run `yarn upgrade tachyons-egghead` in their projects to get latest, with a list of changes
+
 
 ## Debugging
 
