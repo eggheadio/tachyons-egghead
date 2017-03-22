@@ -42,10 +42,8 @@ If using React, you'll probably want to use `egghead-ui` as well; it is a librar
 ## Deployment
 
 After you have create a `feature-branch` off of `master`:
-- create a `feature-branch` off of `master`
 - commit the changes
 - `git push --set-upstream origin feature_branch`
-- `git push --tags`
 - `yarn bump` and type in the new version using [Semantic Versioning](http://semver.org/)
 - submit a pull request for the feature branch to `master`
 - once PR status passes (approved review and successful [continuous integration in Travis CI](https://travis-ci.org/eggheadio/tachyons-egghead), merge the pull request and [continuous deployment in Travis CI](https://travis-ci.org/eggheadio/tachyons-egghead) publishes the new library version to [npm](https://www.npmjs.com/package/tachyons-egghead)
