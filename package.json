@@ -8,7 +8,7 @@
     "build": "mkdir -p css && tachyons src/tachyons.css -m > css/tachyons.min.css && tachyons src/tachyons.css > css/tachyons.css",
     "verify": "yarn build",
     "bump": "yarn version && git push && git push --tags",
-    "prepublish": "yarn build"
+    "prepublishOnly": "yarn build"
   },
   "repository": "eggheadio/tachyons-egghead",
   "dependencies": {
