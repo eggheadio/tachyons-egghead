@@ -1634,9 +1634,9 @@ tachyons-base@eggheadio/tachyons-base#d2ae92a:
   version "1.4.3"
   resolved "https://codeload.github.com/eggheadio/tachyons-base/tar.gz/d2ae92ad4a3a59430c9d5e03ba84cc8b977307da"
 
-tachyons-border-colors@eggheadio/tachyons-border-colors#d3e31f2:
-  version "4.2.3"
-  resolved "https://codeload.github.com/eggheadio/tachyons-border-colors/tar.gz/d3e31f2"
+tachyons-border-colors@eggheadio/tachyons-border-colors#2424dfc:
+  version "4.2.4"
+  resolved "https://codeload.github.com/eggheadio/tachyons-border-colors/tar.gz/2424dfc4e225b039578b83735d3f1b4628493d89"
 
 tachyons-border-radius@^5.1.2:
   version "5.1.3"
@@ -1709,9 +1709,9 @@ tachyons-code@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/tachyons-code/-/tachyons-code-1.0.0.tgz#5c3defc4b9250c64227dcf95b961fc5c1d8fcb28"
 
-tachyons-colors@eggheadio/tachyons-colors#28fd66a:
-  version "5.3.2"
-  resolved "https://codeload.github.com/eggheadio/tachyons-colors/tar.gz/28fd66a"
+tachyons-colors@eggheadio/tachyons-colors#a1aa56a:
+  version "5.3.4"
+  resolved "https://codeload.github.com/eggheadio/tachyons-colors/tar.gz/a1aa56a3c0de777ebb35f7b671f37e28beae7310"
 
 tachyons-coordinates@^4.0.3:
   version "4.0.4"
@@ -1809,13 +1809,13 @@ tachyons-rotations@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/tachyons-rotations/-/tachyons-rotations-1.0.2.tgz#19bb7cc29aceaea56dc02b650241dafa32f0de62"
 
-tachyons-skins-pseudo@eggheadio/tachyons-skins-pseudo#06f4d9f:
-  version "1.0.3"
-  resolved "https://codeload.github.com/eggheadio/tachyons-skins-pseudo/tar.gz/06f4d9f"
+tachyons-skins-pseudo@eggheadio/tachyons-skins-pseudo#bdcdb4d:
+  version "1.0.4"
+  resolved "https://codeload.github.com/eggheadio/tachyons-skins-pseudo/tar.gz/bdcdb4d5f7b257fe8fac65b175c69a8a65070465"
 
-tachyons-skins@eggheadio/tachyons-skins#d40295c:
-  version "4.0.2"
-  resolved "https://codeload.github.com/eggheadio/tachyons-skins/tar.gz/d40295c"
+tachyons-skins@eggheadio/tachyons-skins#2108b0c:
+  version "4.0.3"
+  resolved "https://codeload.github.com/eggheadio/tachyons-skins/tar.gz/2108b0c5cf6372a7f3e462b1560a9bd320889f99"
 
 tachyons-spacing@^6.0.3:
   version "6.0.4"
