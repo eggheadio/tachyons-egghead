@@ -2620,9 +2620,9 @@ tachyons-background-size@^5.0.4:
   version "5.0.5"
   resolved "https://registry.yarnpkg.com/tachyons-background-size/-/tachyons-background-size-5.0.5.tgz#445fbe008125308ebe750262649e3f3f7c9de56f"
 
-tachyons-base@eggheadio/tachyons-base#b26f488:
+tachyons-base@eggheadio/tachyons-base#d2ae92a:
   version "1.4.3"
-  resolved "https://codeload.github.com/eggheadio/tachyons-base/tar.gz/b26f48839674a487c4d94dfab9eb123d07814fd6"
+  resolved "https://codeload.github.com/eggheadio/tachyons-base/tar.gz/d2ae92ad4a3a59430c9d5e03ba84cc8b977307da"
 
 tachyons-border-colors@eggheadio/tachyons-border-colors#d3e31f2:
   version "4.2.3"
