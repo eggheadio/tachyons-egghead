@@ -10,6 +10,7 @@ deploy:
   - provider: npm
     api_key: $AUTHOR_NPM_TOKEN
     email: $AUTHOR_EMAIL
+    skip_cleanup: true
     on:
       repo: eggheadio/tachyons-egghead
       tags: true
