@@ -9,7 +9,7 @@ Tachyons packages edited for egghead.io
 ## Install the dependencies in your project
 
 ```
-$ yarn add tachyons-egghead egghead-ui`
+$ yarn add tachyons-egghead egghead-ui
 ```
 
 ## Include the `tachyons-egghead` CSS classes
@@ -38,17 +38,17 @@ If using React, you'll probably want to use `egghead-ui` as well; it is a librar
 - `yarn dev` to compile with a watcher
 - `yarn verify` check builds work
 - use [`yarn link`](https://yarnpkg.com/lang/en/docs/cli/link/) to test using changes in another project
-    
+
 ## Deployment
 
 After you have create a `feature-branch` off of `master`:
+
 - commit the changes
 - `git push --set-upstream origin feature_branch`
 - `yarn bump` and type in the new version using [Semantic Versioning](http://semver.org/)
 - submit a pull request for the feature branch to `master`
 - once PR status passes (approved review and successful [continuous integration in Travis CI](https://travis-ci.org/eggheadio/tachyons-egghead), merge the pull request and [continuous deployment in Travis CI](https://travis-ci.org/eggheadio/tachyons-egghead) publishes the new library version to [npm](https://www.npmjs.com/package/tachyons-egghead)
 - notify consumers to run `yarn upgrade tachyons-egghead` in their projects to get latest, with a list of changes
-
 
 ## Debugging
 
