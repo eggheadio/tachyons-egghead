@@ -1,6 +1,9 @@
 language: node_js
 node_js:
   - node
+before_install:
+  - export PATH="$(yarn global bin):$PATH"
+  - yarn global add tachyons
 cache: yarn
 script: yarn verify
 deploy:
